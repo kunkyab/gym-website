@@ -327,3 +327,71 @@ padding: 3%;
     border-radius: 50%;
     height: 100px ;
 }
+/*form*/
+/*contact */
+
+.form{
+    width: 40%;
+    margin: auto;
+}
+.form input, textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border-radius: 12px;
+    
+  
+    background: #221818;
+    border: none;
+    color: white;
+}
+.form::placeholder{
+    color: #bdb2b2;
+}
+
+@media only screen and (max-width:870px){
+    .burger{
+        display: block;
+    }
+    .navbar{
+        height: 400px;
+        justify-content: space-around;
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+        position: relative;
+        overflow: hidden;
+        padding: 3% 0;
+    }
+    .navbar li{
+        display: block;
+    }
+    .h-class{
+        height: 78px;
+
+    }
+    .v-class{
+        opacity: 0;
+    }
+}
+@media only screen and (max-width:730px){
+
+.boxes{
+    flex-direction: column;
+}
+.box, .f-box{
+   
+    padding: 3%;
+}
+.footer , .Aboxes{
+    flex-direction: column;
+}
+.img, .cont{
+    width: 100%;
+}
+.Bbox{
+    padding: 1% 3%;
+}
+
+
+}
